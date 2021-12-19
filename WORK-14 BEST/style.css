@@ -1,0 +1,114 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+#carouselExampleIndicators img{
+    height: 800px;
+}
+.box-1{
+    background-color: #1c3faa;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+ .box-2{
+     text-align: center;
+     margin-top: 50px;
+     font-weight: 700;
+ }
+.box-3 img{
+    display: flex;
+    height: 200px;
+    width: auto;
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 40px;
+}
+.box-3 h5{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+.hov1:hover{
+    transform: translate(0px, -10px);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hov2:hover{
+    transform: translate(0px, -10px);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hov3:hover{
+    transform: translate(0px, -10px);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-4 img{
+    display: flex;
+    height: 200px;
+    width: auto;
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 50px;
+}
+.box-4 h5{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}   
+  .box-5{
+      text-align: center;
+      padding: 20px;
+      font-weight: 900;
+      color: rgb(61, 58, 58);
+      margin-top: 50px;
+  }   
+   .box-6, h5, p, svg{
+       text-align: center;
+       padding: 5px;
+       font-weight: 700;
+   } 
+.blok-1{
+background-color: rgb(167, 160, 160);
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}
+.box-7 p{
+    margin-top: 50px;
+    padding: 10px;
+    margin-right: 200px;
+    font-weight: 400;
+}
+.box-7 svg{
+    margin-left: 100px;
+    background-size: cover;
+}
+.car img{
+    display: flex;
+    width: 250px;
+    height: 200px;  
+    border-radius: 8px 0px 0px 8px;
+    border-radius: 7px;
+}
+.car h5{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+
+/*media quern*/
+@media screen and (max-width: 792px) {
+    #carouselExampleIndicators img{
+        height: 250px;
+        
+    }
+    .box-1, h2, p{
+        font-size: 16px;
+    }
+}

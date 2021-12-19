@@ -1,0 +1,208 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;	
+}
+.dropbtn { 
+  color: white;
+  border: none;
+  cursor: pointer;
+   position: fixed;
+}
+.dropdown {
+  position: absolute;
+  display: inline-block; 
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 0.8;
+}
+.dropdown:hover .dropbtn {
+  background-color: 
+}
+.clr{
+	clear: both;
+}
+ul{
+list-style: none;
+display: flex;
+}
+.box-1{ 
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+li{
+	margin-left: 200px;
+	text-align: center
+}
+.btn-info{
+	margin-top: -60px;
+	width: 100px;
+}
+.btn-dark{
+	margin-top:20px;
+	margin-left: 15px;
+	width: 100px;
+	height: 50px;	
+}
+.btn1{
+width: 100px;
+height: 35px;
+border-radius: 5px;
+background: #4682B4;
+color: white;
+border:none; 
+transition: 0.2s linear;
+box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.rasm{
+  width: 300px;
+	height: 260px;
+	border-radius: 5px;
+  position: relative;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blok1{
+	float: left;
+	width: 33.3%;
+	padding: 25px;
+	box-sizing: border-box;
+	border-left: 1px solid black;
+}	
+.refs{
+margin: 10px;
+width: 45%;
+height: 55%;
+margin-top: 550px; 
+}
+.rasm4{
+  margin-right: 25px;
+  width:52%;
+  height:43%;
+  float: right;
+  margin-top: -650px;
+  box-shadow:0 10px 10px rgba(0, 0, 0, 0.6);
+}
+.ref1{
+  padding: 35px;
+  margin:  10px;
+  color: black;
+  border-bottom:solid 1px black;
+  font-family:britannic bold ;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.6);
+}
+.ref1:hover{
+ transform: translateY(10px);
+ box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
+ transition: 0.6s;
+}
+.ref2{
+  position: relative;
+  color: #fff;
+  width:52%;
+  padding: 10px;
+  float: right;
+  margin-right: 25px;
+  margin-top:-250px;
+}
+.ref3{
+  background-color: #4682B4;
+  width: 100%;
+  height: 400px;
+}
+.inp{
+  margin: 20px;
+ margin-left: 50px;
+ border-radius: 6px;
+ 
+}
+.txt{
+ 
+   margin-left: 100px;
+  width: 320px;
+  height: 150px;
+  margin:15px;
+  border-radius: 6px;
+}
+.inp2{
+  float: right;
+  padding-right:50px; 
+}
+.btn_send{
+  position: relative;
+  margin-top: -70px;
+  float: right;
+  margin-bottom:20px;
+  margin-right: 25px;
+width: 100px;
+height: 35px;
+border-radius: 5px;
+background: #4682B4;
+color: white;
+border:none;
+}
+.bi-whatsapp{
+  margin: 30px;
+  margin-bottom:20px;
+  color: black;
+}
+.bi-telegram{
+  margin: 30px;
+  margin-bottom:20px;
+  color: black;
+}
+.bi-facebook{
+  margin: 30px;
+  margin-bottom:20px;
+  color: black;
+}
+.bi-instagram{
+  margin: 30px;
+  margin-bottom:20px;
+  color: black;
+}
+.bi-twitter{
+  margin: 30px;
+  margin-bottom:20px;
+  color: black;
+}
+.bi-telephone{
+  margin: 30px;
+  margin-bottom:20px;
+  color: black;
+}
+.bi-calendar3-week{
+  margin-left: 30px;
+}
+.rouw{  
+  color: black;
+  width: 35%;
+  margin-left: 25px;
+  margin: 25px;
+  font-size: 18px;
+}
+.txt2{
+  margin-left: 100px;
+  font-size: 20px;
+  margin-top: -30px;
+
+}
+
+

@@ -1,0 +1,32 @@
+body {
+   background-image: url(images/img3.jpg);
+  }
+  div{
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+      background-color: black;
+      width: 350px;
+      height: 600px;
+    margin-top: 150px;
+    
+    
+  }
+  input{
+    border: black;
+    background-color: black;
+    width: 77%;
+    height: 10%;
+    color: white;
+    border-color: white;
+    font-family: sans-serif, alpha,arial ; 
+    border-bottom:solid;
+   
+  }
+  button{
+      background-color: black;
+      color: white;
+      margin-top: 15px;
+  }
+.w3-container{
+
+  }

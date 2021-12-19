@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 15px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 15px;
+    /* margin-right: 15px; */
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+i{
+   color: yellow;
+}
+ video{
+
+    
+    margin: -15px;
+    width: 400px;
+    height:250px; 
+    border-radius: 30px;
+   margin-bottom: -30px;
+} 
+/* .div{
+   width: 50px;
+   height: 40px;
+} */
+.row{
+    margin-bottom: 66px;
+}
+.container{
+margin: 20px;
+margin-left: 220px;
+margin-bottom: 40px;
+margin-top: 10px;
+padding-bottom: 40px;
+/* line-height: 50px; */
+list-style: radial-gradient(33grad);
+}

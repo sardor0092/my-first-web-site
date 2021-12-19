@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+}
+ ul{
+	display: flex;
+	margin: 50px;
+	padding: 50px;
+	margin-left: 50px;
+}
+.money{
+font-size: 15px;
+font-family: sans-serif;
+color: black;
+}
+
+li{
+	margin-left: 70px;
+	list-style: none;
+}
+
+.btn{
+	margin-left: 600px;
+}
+#salom{
+	color: black;
+	margin: 30px;
+	padding-left: 60px;
+}
+#fa{
+	margin: 40px;
+	padding-right: 500px;
+	display:flex;
+	float: right;
+	padding-top: -100px;
+}
+#kak{
+
+	margin-left: 1000px;
+	margin-top: -100px;
+}
+th{
+	color: black;
+	border: none;
+	margin: auto;
+}
+td{
+	color: black;
+	border: none;
+    text-align: center;
+}
+table{
+	border: 1px solid #ddd;
+}
